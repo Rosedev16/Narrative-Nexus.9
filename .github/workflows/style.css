@@ -1,0 +1,51 @@
+body {
+    background:  url('/background.png') 0 0 no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-blend-mode: multiply;
+    
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: centre;
+    
+}
+
+.login-form {
+    background-color: rgba(225, 225, 225, 0.8);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.login-form h2 {
+    margin-bottom: 20px;
+    
+}
+.login-form input {
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+.login-form button {
+    width: 100%;
+    padding: 10px;
+    background-color: darkgrey;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.login-form button:hover {
+    background-color:  slategrey;
+}
+h1 {
+    font-size: 64px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-decoration: underline;
+}
